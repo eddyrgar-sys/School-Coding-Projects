@@ -1,0 +1,3 @@
+﻿  week 2 HW.cpp
+C:\Users\kiko2\OneDrive\Documents\Troy Classes\CS2250\C++\Week_2\week 2 HW\week 2 HW\week 2 HW.cpp(23,19): warning C4244: 'initializing': conversion from 'time_t' to 'unsigned int', possible loss of data
+  week 2 HW.vcxproj -> C:\Users\kiko2\OneDrive\Documents\Troy Classes\CS2250\C++\Week_2\week 2 HW\x64\Debug\week 2 HW.exe
