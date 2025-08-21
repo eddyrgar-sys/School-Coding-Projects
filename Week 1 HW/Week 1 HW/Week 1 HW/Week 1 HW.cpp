@@ -1,91 +1,70 @@
-//This program dynamically allocates an array large enough to hold a user-defined number of test scores.
-//Using pointer notation rather than array notation whenever possible.
-//Programmer: Eddy Garcia
+// Week 1 HW.cpp
 
 #include <iostream>
-#include <iomanip>
-using namespace std;
+#include <string>
 
+class Flower {
+private:
+    std::string name; // Name of the flower
+    int numPetals;    // Number of petals
+    float price;      // Price of the flower
 
-void sortScores(double* scores, int size) 
-{
-    for (int i = 0; i < size - 1; ++i) 
-    {
-        for (int j = 0; j < size - i - 1; ++j) 
-        {
-            if (*(scores + j) > *(scores + j + 1))
-            {
-                //Swap
-                double temp = *(scores + j);
-                *(scores + j) = *(scores + j + 1);
-                *(scores + j + 1) = temp;
-            }
-        }
-    }
-}
+public:
+    // Constructor to initialize member variables
+    Flower(const std::string& flowerName = "Unknown", int petals = 0, float flowerPrice = 0.0f)
+        : name(flowerName), numPetals(petals), price(flowerPrice) {}
 
-double calculateAverage(double* scores, int size) 
-{
-    double sum = 0.0;
-    for (int i = 0; i < size; ++i) 
-    {
-        sum += *(scores + i);
-    }
-    return sum / size;
-}
-
-int main() 
-{
-    int numScores;
-
-    //Input validation for the number of scores
-    do 
-    {
-        cout << "Enter the number of test scores (greater than 0): ";
-        cin >> numScores;
-        if (numScores <= 0) 
-        {
-            cout << "Please enter a valid number of scores (must be positive).\n";
-        }
-    } while (numScores <= 0);
-
-    //Dynamically allocate an array for the scores
-    double* scores = new double[numScores];
-
-    //Input validation for scores
-    for (int i = 0; i < numScores; ++i) 
-    {
-        do 
-        {
-            cout << "Enter score " << (i + 1) << " (0 to 100, must be positive): ";
-            cin >> *(scores + i);
-            if (*(scores + i) < 0) 
-            {
-                cout << "Score cannot be negative. Please try again.\n";
-            }
-            else if (*(scores + i) > 100) 
-            {
-                cout << "Score must be between 0 and 100. Please try again.\n";
-            }
-        } while (*(scores + i) < 0 || *(scores + i) > 100);
+    // Setter for name
+    void setName(const std::string& flowerName) {
+        name = flowerName;
     }
 
-    //Sort the scores
-    sortScores(scores, numScores);
-
-    //Calculate the average
-    double average = calculateAverage(scores, numScores);
-
-    //Display results
-    cout << "\nSorted Test Scores in Ascending Order:\n";
-    for (int i = 0; i < numScores; ++i) 
-    {
-        cout << *(scores + i) << endl;
+    // Getter for name
+    std::string getName() const {
+        return name;
     }
-    cout << "\n\nAverage Score: " << fixed << setprecision(2) << average << endl;
 
-    //Free allocated memory
-    delete[] scores;
+    // Setter for number of petals
+    void setNumPetals(int petals) {
+        numPetals = petals;
+    }
+
+    // Getter for number of petals
+    int getNumPetals() const {
+        return numPetals;
+    }
+
+    // Setter for price
+    void setPrice(float flowerPrice) {
+        price = flowerPrice;
+    }
+
+    // Getter for price
+    float getPrice() const {
+        return price;
+    }
+};
+
+int main() {
+    // Create a Flower object
+    Flower rose("Rose", 32, 12.99f);
+
+    // Print initial values
+    std::cout << "Flower Name: " << rose.getName() << std::endl;
+    std::cout << "Number of Petals: " << rose.getNumPetals() << std::endl;
+    std::cout << "Price: $" << rose.getPrice() << std::endl;
+
+    // Modify values using setters
+    rose.setName("Tulip");
+    rose.setNumPetals(6);
+    rose.setPrice(8.49f);
+
+    // Print updated values
+    std::cout << "\nUpdated Flower Information:" << std::endl;
+    std::cout << "Flower Name: " << rose.getName() << std::endl;
+    std::cout << "Number of Petals: " << rose.getNumPetals() << std::endl;
+    std::cout << "Price: $" << rose.getPrice() << std::endl;
 
     return 0;
 }
+
