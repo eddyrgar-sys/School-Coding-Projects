@@ -1,0 +1,6 @@
+﻿Build started at 2:41 PM...
+1>------ Build started: Project: Week 8 HW Rainfall, Configuration: Debug x64 ------
+1>Week 8 HW Rainfall.cpp
+1>Week 8 HW Rainfall.vcxproj -> C:\Users\kiko2\OneDrive\Documents\Troy Classes\CS2250\C++\Week_8\Week 8 HW Rainfall\x64\Debug\Week 8 HW Rainfall.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build completed at 2:41 PM and took 00.562 seconds ==========
