@@ -1,0 +1,4 @@
+﻿  mergesort.cpp
+C:\Users\kiko2\OneDrive\Documents\Troy Classes\CS3330\Project 3\mergesort\mergesort\mergesort.cpp(63,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\kiko2\OneDrive\Documents\Troy Classes\CS3330\Project 3\mergesort\mergesort\mergesort.cpp(95,34): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  mergesort.vcxproj -> C:\Users\kiko2\OneDrive\Documents\Troy Classes\CS3330\Project 3\mergesort\x64\Debug\mergesort.exe

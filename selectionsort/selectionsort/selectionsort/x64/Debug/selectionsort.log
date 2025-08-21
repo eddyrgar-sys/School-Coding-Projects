@@ -1,0 +1,3 @@
+﻿  selectionsort.cpp
+C:\Users\kiko2\OneDrive\Documents\Troy Classes\CS3330\Project 3\selectionsort\selectionsort\selectionsort.cpp(14,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  selectionsort.vcxproj -> C:\Users\kiko2\OneDrive\Documents\Troy Classes\CS3330\Project 3\selectionsort\selectionsort\x64\Debug\selectionsort.exe

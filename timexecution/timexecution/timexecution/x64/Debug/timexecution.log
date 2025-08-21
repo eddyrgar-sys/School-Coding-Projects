@@ -1,0 +1,16 @@
+﻿  timexecution.cpp
+C:\Users\kiko2\OneDrive\Documents\Troy Classes\CS3330\Project 3\timexecution\timexecution\timexecution.cpp(15,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\kiko2\OneDrive\Documents\Troy Classes\CS3330\Project 3\timexecution\timexecution\timexecution.cpp(29,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\kiko2\OneDrive\Documents\Troy Classes\CS3330\Project 3\timexecution\timexecution\timexecution.cpp(149,102): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\kiko2\OneDrive\Documents\Troy Classes\CS3330\Project 3\timexecution\timexecution\timexecution.cpp(150,107): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\kiko2\OneDrive\Documents\Troy Classes\CS3330\Project 3\timexecution\timexecution\timexecution.cpp(152,102): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\kiko2\OneDrive\Documents\Troy Classes\CS3330\Project 3\timexecution\timexecution\timexecution.cpp(153,107): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\kiko2\OneDrive\Documents\Troy Classes\CS3330\Project 3\timexecution\timexecution\timexecution.cpp(176,105): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\kiko2\OneDrive\Documents\Troy Classes\CS3330\Project 3\timexecution\timexecution\timexecution.cpp(177,105): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\kiko2\OneDrive\Documents\Troy Classes\CS3330\Project 3\timexecution\timexecution\timexecution.cpp(183,105): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\kiko2\OneDrive\Documents\Troy Classes\CS3330\Project 3\timexecution\timexecution\timexecution.cpp(184,105): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\kiko2\OneDrive\Documents\Troy Classes\CS3330\Project 3\timexecution\timexecution\timexecution.cpp(190,105): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\kiko2\OneDrive\Documents\Troy Classes\CS3330\Project 3\timexecution\timexecution\timexecution.cpp(191,105): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\kiko2\OneDrive\Documents\Troy Classes\CS3330\Project 3\timexecution\timexecution\timexecution.cpp(197,105): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\kiko2\OneDrive\Documents\Troy Classes\CS3330\Project 3\timexecution\timexecution\timexecution.cpp(198,105): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  timexecution.vcxproj -> C:\Users\kiko2\OneDrive\Documents\Troy Classes\CS3330\Project 3\timexecution\timexecution\x64\Debug\timexecution.exe

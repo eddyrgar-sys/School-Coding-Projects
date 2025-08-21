@@ -1,0 +1,4 @@
+﻿  quicksort.cpp
+C:\Users\kiko2\OneDrive\Documents\Troy Classes\CS3330\Project 3\quicksort\quicksort\quicksort.cpp(48,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\kiko2\OneDrive\Documents\Troy Classes\CS3330\Project 3\quicksort\quicksort\quicksort.cpp(81,42): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  quicksort.vcxproj -> C:\Users\kiko2\OneDrive\Documents\Troy Classes\CS3330\Project 3\quicksort\quicksort\x64\Debug\quicksort.exe
